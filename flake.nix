@@ -30,9 +30,6 @@
             # Nix
             programs.nixfmt.enable = true;
 
-            # Clojure
-            programs.zprint.enable = true;
-
             # GitHub Actions
             programs.actionlint.enable = true;
 
