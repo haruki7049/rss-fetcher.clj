@@ -44,6 +44,7 @@
             nativeBuildInputs = [
               # Runtimes
               pkgs.clojure
+              pkgs.jdk
 
               # Package managers
               pkgs.leiningen
