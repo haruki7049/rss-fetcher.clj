@@ -1,6 +1,7 @@
 (ns rss-fetcher.main
   (:require [clojure.tools.cli :refer [parse-opts]]
-            [clojure.string :as str])
+            [clojure.string :as str]
+            [dev.dirs ProjectDirectories])
   (:gen-class))
 
 (def cli-options

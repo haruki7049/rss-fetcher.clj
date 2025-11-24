@@ -2,7 +2,8 @@
   :description "A RSS fetcher CLI program written by Clojure, for my practice"
   :url "https:/github.com/haruki7049/rss-fetcher.clj"
   :dependencies [[org.clojure/clojure "1.12.3"]
-                 [org.clojure/tools.cli "1.2.245"]]
+                 [org.clojure/tools.cli "1.2.245"]
+                 [dev.dirs/directories "26"]]
   :main rss-fetcher.main
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
